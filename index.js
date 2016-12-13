@@ -1,4 +1,4 @@
-const remote = require('electron').remote
+const { remote } from 'electron'
 const main = remote.require('./main.js')
 
 let button = document.createElement('button')
