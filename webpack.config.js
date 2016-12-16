@@ -29,7 +29,7 @@ module.exports = {
           presets: ['react', 'es2015']
         }
       },
-      { test: /(\.css|\.scss)$/, loaders: ['style', 'css?sourceMap', 'sass?sourceMap'] },
+      { test: /(\.css|\.scss)$/, loaders: ['style', 'css?sourceMap', 'sass?sourceMap'] }
     ]
   },
 
